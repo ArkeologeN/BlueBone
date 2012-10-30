@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView 
+	    android:id="@+id/splashView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:visibility="visible"
+	    android:src="@drawable/onboard"
+	    android:contentDescription="@string/app_name"
+     />
+	<com.plumtree.bluebone.BBWebView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/mMainView2" />
+</LinearLayout>
+

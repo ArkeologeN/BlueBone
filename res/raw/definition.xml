@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hierarchy>
+    <applications>
+        <application 
+            id="bluebone"
+            name="Blue Bone"
+            dir="app1"
+            version="1.0"
+            entrance="index.html">
+        </application>
+        <application
+            id="bluebonechild"
+            name="Blue Bone Child"
+            version="1.2"
+            entrance="app2.html">
+            
+        </application>
+    </applications>
+</hierarchy>
